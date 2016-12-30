@@ -1,0 +1,6 @@
+[package]
+name = "learn"
+version = "0.1.0"
+authors = ["Andrew Rea <email@andrewrea.co.uk>"]
+
+[dependencies]
