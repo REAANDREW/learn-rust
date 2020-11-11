@@ -177,6 +177,16 @@ fn play_with_structs_self(){
     println!("Found string with prefix: {}", item);
 }
 
+fn play_with_some(){
+    fn something() -> Option<i32>{
+        Some(1)
+    }
+
+    if let Some(val) = something(){
+        println!("We have dodged the match to check for some {}", val)
+    }
+}
+
 fn main() {
     arrays();
     hashmaps();
@@ -187,5 +197,6 @@ fn main() {
     play_with_returning_references();
     play_with_lifetimes_with_structs();
     play_with_structs_self();
+    play_with_some();
     println!("Hello, world!");
 }
