@@ -187,6 +187,10 @@ fn play_with_some(){
     }
 }
 
+fn play_with_unwrap_or(){
+
+}
+
 fn main() {
     arrays();
     hashmaps();
